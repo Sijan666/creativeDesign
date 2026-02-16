@@ -5,7 +5,7 @@ import Iso from '../../assets/Iso.png'
 
 const Banner = () => {
     return (
-        <section className="relative min-h-[85vh] flex items-center bg-[#FDFDFD] overflow-hidden pt-20 pb-10">
+        <section className="relative min-h-[85vh] flex items-center bg-[#FDFDFD] overflow-hidden pb-10">
             {/* Background */}
             <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-red-50/50 rounded-full blur-[120px] -z-10 translate-x-1/4"></div>
             <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center">
@@ -30,11 +30,12 @@ const Banner = () => {
                         With a vision to turn manpower into assets, Creative IT Institute 
                         is ready to enhance your learning experience with expert mentors.
                     </p>
+                    {/* btn */}
                     <div className="flex flex-wrap gap-5">
-                        <button className="bg-[#EE1D23] hover:bg-[#c1171d] text-white px-8 py-4 rounded-md font-bold text-sm transition-all shadow-lg shadow-red-100 active:scale-95 uppercase tracking-wider">
+                        <button className="cursor-pointer bg-[#EE1D23] hover:bg-[#c1171d] text-white px-8 py-4 rounded-md font-bold text-sm transition-all shadow-lg shadow-red-100 active:scale-95 uppercase tracking-wider">
                             Browse Course
                         </button>
-                        <button className="bg-[#EE1D23] hover:bg-[#c1171d] text-white px-8 py-4 rounded-md font-bold text-sm transition-all shadow-lg shadow-red-100 active:scale-95 uppercase tracking-wider">
+                        <button className="cursor-pointer bg-[#EE1D23] hover:bg-[#c1171d] text-white px-8 py-4 rounded-md font-bold text-sm transition-all shadow-lg shadow-red-100 active:scale-95 uppercase tracking-wider">
                             Join Free Seminar
                         </button>
                     </div>
