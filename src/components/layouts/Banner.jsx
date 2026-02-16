@@ -31,16 +31,18 @@ const Banner = () => {
                         With a vision to turn manpower into assets, Creative IT Institute 
                         is ready to enhance your learning experience with expert mentors.
                     </p>
-                    {/* btn */}
                     <div className="flex flex-wrap gap-5">
                         <button className="bg-[#EE1D23] hover:bg-[#c1171d] text-white px-8 py-4 rounded-md font-bold text-sm transition-all shadow-lg shadow-red-100 active:scale-95 uppercase tracking-wider">
                             Browse Course
                         </button>
-                        <button className="bg-[#EE1D23] hover:bg-[#c1171d] text-white px-8 py-4 rounded-md font-bold text-sm transition-all shadow-lg shadow-red-100 active:scale-95 uppercase tracking-wider">
+                        <button className="group flex items-center gap-4 text-[#1E293B] font-bold text-sm hover:text-[#EE1D23] transition-all uppercase tracking-wider">
+                            <span className="w-12 h-12 rounded-full border-2 border-slate-200 flex items-center justify-center group-hover:border-[#EE1D23] group-hover:bg-red-50 transition-all">
+                                <svg className="w-4 h-4 fill-current ml-1" viewBox="0 0 24 24"><path d="M8 5v14l11-7z" /></svg>
+                            </span>
                             Join Free Seminar
                         </button>
                     </div>
-                    {/* Badge */}
+                    {/* Simple Trust Badge */}
                     <div className="flex items-center gap-4 pt-4">
                         <div className="text-3xl"><Images imgSrc={Iso}/></div>
                         <div className="border-l-2 border-slate-100 pl-4">
