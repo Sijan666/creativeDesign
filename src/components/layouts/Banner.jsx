@@ -6,14 +6,13 @@ import Iso from '../../assets/Iso.png'
 const Banner = () => {
     return (
         <section className="relative min-h-[85vh] flex items-center bg-[#FDFDFD] overflow-hidden pt-20 pb-10">
-            {/* Background Decor */}
+            {/* Background */}
             <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-red-50/50 rounded-full blur-[120px] -z-10 translate-x-1/4"></div>
             <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center">
-                {/* --- Left Content (Grid Column 1) --- */}
+                {/* --- Left Content --- */}
                 <div className="space-y-8 z-10 order-2 lg:order-1">
-                    
                     <div className="inline-flex items-center gap-3">
-                        <span className="h-[2px] w-10 bg-[#EE1D23]"></span>
+                        <span className="h-0.5 w-10 bg-[#EE1D23]"></span>
                         <span className="text-[#EE1D23] font-bold uppercase tracking-[0.2em] text-xs">
                             Unleash Your Potential
                         </span>
@@ -42,7 +41,7 @@ const Banner = () => {
                             Join Free Seminar
                         </button>
                     </div>
-                    {/* Simple Trust Badge */}
+                    {/* Badge */}
                     <div className="flex items-center gap-4 pt-4">
                         <div className="text-3xl"><Images imgSrc={Iso}/></div>
                         <div className="border-l-2 border-slate-100 pl-4">
@@ -51,13 +50,13 @@ const Banner = () => {
                         </div>
                     </div>
                 </div>
-                {/* --- Right Visual (Grid Column 2) --- */}
+                {/* --- Right --- */}
                 <div className="relative order-1 lg:order-2 flex justify-center lg:justify-end">
                     <div className="relative w-full max-w-[600px] transition-transform duration-500 hover:scale-[1.02]">
                         <Images 
                             imgSrc={banner} 
                             className="w-full h-auto object-contain drop-shadow-[0_25px_40px_rgba(0,0,0,0.1)]" />
-                        {/* Decorative Shape behind image */}
+                        {/* Decorative */}
                         <div className="absolute -inset-4 border-2 border-slate-50 rounded-[40px] -z-10 rotate-3"></div>
                     </div>
                 </div>
